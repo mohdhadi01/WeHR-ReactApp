@@ -1,0 +1,59 @@
+.UpcomingCard {
+  width: 427px;
+  /* height: 346px; */
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+
+  padding-top: 16px;
+  padding-bottom: 22px;
+}
+.UpcomingHead {
+  flex-shrink: 0;
+  margin-bottom: 15px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 5px;
+}
+.Upcomingtitle {
+  color: #303030;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+}
+.UpcomingContentBox {
+  padding-left: 22px;
+  padding-right: 22px;
+  height: 326px;
+  overflow-y: scroll;
+}
+
+.UpcomingContentBox {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.UpcomingContentBox::-webkit-scrollbar {
+  display: none;
+}
+.ActivitynotificationBox {
+  display: flex;
+  width: 387px;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 29px;
+  border-radius: 6px;
+  border: 0.5px solid #e0e0e0;
+  background: #fafafa;
+}
+.scheduletype {
+  color: var(--Primary-Subtitle-Color, #686868);
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

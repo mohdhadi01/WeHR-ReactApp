@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.NavBarContainer {
+  height: 90px;
+  width: 100%;
+  position: relative;
+}
+.sidebar {
+  width: 275px;
+  position: relative;
+  margin-right: 58px;
+}
+.SideBar {
+  position: fixed;
+  width: 270px;
+  background-color: #68686809;
+}
+.MainContainer {
+  width: 82vw;
+}
+.midContainer {
+  width: 680px;
+}
+.Schedule {
+  width: 450px;
+  margin-left: 35px;
+}

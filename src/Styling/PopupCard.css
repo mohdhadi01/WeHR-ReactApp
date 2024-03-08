@@ -1,0 +1,59 @@
+.popupCard {
+  width: 603px;
+  min-height: 490px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 10px 10px 10px 1011px rgba(0, 0, 0, 0.42);
+}
+.cardContent {
+  height: 100%;
+}
+.side1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+}
+.side2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.timebox {
+  color: black;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  background-color: rgba(208, 206, 206, 0.628);
+  border-radius: 10px;
+  outline: none;
+}
+.timebox:placeholder-shown {
+  color: black;
+}
+.timeButton {
+  display: inline-flex;
+  height: 38px;
+  width: 120px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #ff5151;
+}
+.selectBar {
+  width: 320px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+}
+.teamSelect {
+  background: none;
+  font-size: 14px;
+  color: #667085;
+}
