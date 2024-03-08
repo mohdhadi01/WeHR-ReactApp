@@ -86,6 +86,32 @@
   }
 }
 
-@media screen and (max-width: 1270px) {
-  /*  */
+@media screen and (max-width: 835px) {
+  .smallboxContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .smallCard {
+    width: 80vw;
+  }
+  .mainBoxContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mainCard {
+    width: 80vw;
+  }
+  .AnnouncementCard {
+    width: 80vw;
+  }
+  .ScheduleContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .ActivityContainer {
+    width: 80vw;
+  }
+  .UpcomingCard {
+    width: 80vw;
+  }
 }
