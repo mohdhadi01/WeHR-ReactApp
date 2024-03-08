@@ -104,6 +104,7 @@
   .AnnouncementCard {
     width: 80vw;
     height: auto;
+    padding-bottom: 0px;
   }
   .ScheduleContainer {
     flex-direction: column;
@@ -162,8 +163,51 @@
     display: flex;
     justify-content: center;
   }
-
 }
-@media screen and (max-width: 600px) {
-/*  */
+@media screen and (max-width: 430px) {
+  .head {
+    font-size: 20px;
+  }
+  .status {
+    font-size: 16px;
+  }
+  .number {
+    font-size: 32px;
+  }
+  .urgent {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .mainNumber {
+    font-size: 44px;
+  }
+  .countMonth {
+    font-size: 10px;
+  }
+  .Announcetitle {
+    font-size: 13px;
+  }
+  .dateSelect {
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+  }
+  .NotiTextBox {
+    font-size: 11px;
+  }
+  .timetext {
+    font-size: 8px;
+  }
+  .IconBox {
+    gap: 10px;
+  }
+  .Upcomingtitle {
+    font-size: 14px;
+  }
+  .more {
+    font-size: 10px;
+    padding-top: 0px;
+  }
 }

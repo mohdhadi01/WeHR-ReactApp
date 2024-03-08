@@ -31,7 +31,7 @@ function AnnouncementCard() {
 
         </div>))}
       </div>
-      <h1 className='text-center text-sm text-red-500 font-[500] p-2 border-t border-gray-200 cursor-pointer'>See All Announcement</h1>
+      <h1 className='more text-center text-sm text-red-500 font-[500] p-2 border-t border-gray-200 cursor-pointer'>See All Announcement</h1>
     </div>
   )
 }
