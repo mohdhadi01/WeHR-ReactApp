@@ -144,5 +144,26 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .name {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .Input {
+    width: 50%;
+  }
+  .rightNavBox {
+    padding-right: 0px;
+  }
+
+  .Home {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 600px) {
 /*  */
 }
