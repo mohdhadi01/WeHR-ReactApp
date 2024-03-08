@@ -103,6 +103,7 @@
   }
   .AnnouncementCard {
     width: 80vw;
+    height: auto;
   }
   .ScheduleContainer {
     flex-direction: column;
@@ -114,4 +115,34 @@
   .UpcomingCard {
     width: 80vw;
   }
+}
+@media screen and (max-width: 775px) {
+  .inputBar {
+    width: 200px;
+  }
+  .Input {
+    width: 120px;
+  }
+  .notificationBox {
+    gap: 0px;
+  }
+  .midContainer {
+    width: 80vw;
+  }
+  .ScheduleContainer {
+    width: 80vw;
+  }
+  .rightNavBox {
+    gap: 10px;
+  }
+  .name {
+    font-size: 0.8rem;
+  }
+  .avatar {
+    margin-top: 5px;
+    height: 29px;
+  }
+}
+@media screen and (max-width: 600px) {
+/*  */
 }
