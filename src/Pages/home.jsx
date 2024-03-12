@@ -11,15 +11,12 @@ function Home() {
 		setShowSidebar(!showSidebar);
 		console.log(showSidebar)
 	};
-
 	useEffect(() => {
 		const handleResize = () => {
 			setShowSidebar(window.innerWidth >= 1450);
 		};
 		handleResize();
-
 		window.addEventListener('resize', handleResize);
-
 		return () => {
 			window.removeEventListener('resize', handleResize);
 		};
@@ -27,8 +24,8 @@ function Home() {
 
 	return (
 		<div className='Home flex w-[99vw]'>
-			<div  style={{ width: showSidebar ? "275px" : "105px", zIndex: "1" }}
-			className={`sidebar ${showSidebar ? 'togglesidebar' : ''}`}
+			<div style={{ width: showSidebar ? "275px" : "105px", zIndex: "1" }}
+				className={`sidebar ${showSidebar ? 'togglesidebar' : ''}`}
 			>
 				<SideBar showSidebar={showSidebar} toggleSidebar={toggleSidebar} />
 			</div>
