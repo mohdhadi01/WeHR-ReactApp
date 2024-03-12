@@ -5,21 +5,20 @@ import userIcon from '../Assets/AddMember/user-01.svg'
 function AddTeam() {
     const [teamMembers, setTeamMembers] = useState(TeamMemberData);
 
-    const removeMember = (memberToRemove) => {
-        const updatedMembers = teamMembers.filter(item => item.name !== memberToRemove.name);
+    const removeMember = (e) => {
+        const updatedMembers = teamMembers.filter(item => item.name !== e.name);
         setTeamMembers(updatedMembers);
-    };   
+    };
 
-    const addMember = (selectedMemberName) => {
-        const isMemberAlreadyAdded = teamMembers.some(member => member.name === selectedMemberName);
-    
-    // If the selected member is not already added, add it to the teamMembers array
-    if (!isMemberAlreadyAdded) {
-        const selectedMember = TeamMemberData.find(member => member.name === selectedMemberName);
-        if (selectedMember) {
-            setTeamMembers([...teamMembers, selectedMember]);
+    const addMember = (e) => {
+        const isMemberAlreadyAdded = teamMembers.some(member => member.name === e);
+
+        if (!isMemberAlreadyAdded) {
+            const selectedMember = TeamMemberData.find(member => member.name === e);
+            if (selectedMember) {
+                setTeamMembers([...teamMembers, selectedMember]);
+            }
         }
-    }
     };
 
     return (
@@ -42,7 +41,7 @@ function AddTeam() {
                 <select className='teamSelect w-[90%] ' name="AddMember" id="" onChange={(e) => addMember(e.target.value)}>
                     <option value="" disabled selected>Select team member</option>
                     {TeamMemberData.map((member, index) => (
-                        <option key={index} value={member.name}>{member.name} - {member.title}</option>
+                        <option key={index} value={member.name}>{member.name} </option>
                     ))}
                 </select>
                 <img src="" alt="" />

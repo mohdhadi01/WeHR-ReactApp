@@ -32,7 +32,7 @@ function RecentActivity() {
 			</div>
 
 			{isCardOpen && (
-				<div className="popupCard  absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] w-[500px] h-[300px]">
+				<div className="popupCard  absolute  left-1/2 translate-y-[-70%] translate-x-[-50%] w-[500px] h-[300px]">
 					<button className='closeIcon absolute right-6 top-4' onClick={handleCloseCard}><img src={closeIcon} alt="" /></button>
 					<div className="cardContent flex p-[30px] text-black">
 
@@ -80,7 +80,7 @@ function RecentActivity() {
 									<h1 className='text-[14px] font-[400] mb-7 text-[#475467] '>The following users have access to this meeting:</h1>
 
 
-									
+
 									<AddTeam />
 
 

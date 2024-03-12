@@ -5,6 +5,7 @@
   border-radius: 16px;
   background: #fff;
   box-shadow: 10px 10px 10px 1011px rgba(0, 0, 0, 0.42);
+  z-index: 999;
 }
 .cardContent {
   height: 100%;

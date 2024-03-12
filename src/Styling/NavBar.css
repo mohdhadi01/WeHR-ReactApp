@@ -47,3 +47,31 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
+.dropdown {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 70%; /* Position the dropdown below the avatar */
+  right: 100; /* Align the dropdown to the right side of the avatar */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dropdown ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.dropdown ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown ul li:hover {
+  background-color: #f4f4f4; /* Change background color on hover */
+}

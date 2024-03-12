@@ -1,8 +1,22 @@
+.threeLineIcon1 {
+  display: none;
+}
+
+@media screen and (min-width: 1450px) {
+  .threeLineIcon {
+    display: none;
+  }
+  .threeLineIcon1 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1450px) {
   .sidebar {
     width: 105px;
     margin-right: 28px;
   }
+
   .SideBar {
     display: flex;
     flex-direction: column;
@@ -29,6 +43,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .inputBar {
+    margin-left: 50px;
   }
 }
 
@@ -84,6 +101,9 @@
     padding-top: 20px;
     margin-right: 35px;
   }
+  .name {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 835px) {
@@ -115,6 +135,14 @@
   }
   .UpcomingCard {
     width: 80vw;
+  }
+  .popupCard {
+    width: 503px;
+    min-height: 490px;
+  }
+  .side1 {
+    margin-right: 20px;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 775px) {
@@ -151,6 +179,10 @@
   .sidebar {
     display: none;
   }
+
+  .threeLineIcon1 {
+    display: block;
+  }
   .Input {
     width: 50%;
   }
@@ -163,10 +195,40 @@
     display: flex;
     justify-content: center;
   }
+  .Input {
+    display: none;
+  }
+  .inputBar {
+    border: none;
+    width: auto;
+    margin-left: 0;
+  }
+  .SearchIcon {
+    width: 45px;
+  }
+  .cardContent {
+    flex-direction: column;
+    height: auto;
+  }
+  .popupCard {
+    width: 403px;
+    min-height: 530px;
+  }
+  .side1 {
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: 0.8rem;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 440px) {
   .head {
     font-size: 20px;
+  }
+  .SearchIcon {
+    width: 40px;
+    height: 40px;
   }
   .status {
     font-size: 16px;
@@ -209,5 +271,9 @@
   .more {
     font-size: 10px;
     padding-top: 0px;
+  }
+  .popupCard {
+    width: 358px;
+    min-height: 580px;
   }
 }
