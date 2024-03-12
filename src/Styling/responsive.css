@@ -179,6 +179,9 @@
   .sidebar {
     display: none;
   }
+  .togglesidebar{
+    display: block;
+  }
 
   .threeLineIcon1 {
     display: block;
